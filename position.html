@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>position image text</title>
+	<style>
+	.container{
+		position: relative;
+	}
+	.topleft{
+		position: absolute;
+		top: 8px;
+		left: 16px;
+		font-size: 18px;
+	}
+	.topright{
+		position:absolute;
+		top: 8px;
+		right:  8px;
+		font-size: 18px; 
+	}
+	.center{
+		position: absolute;
+		top:50%;
+		left:0;
+		width:100%;
+		text-align: center;
+		font-size: 18px;
+	}
+	.bottomleft{
+		position: absolute;
+		bottom: 8px;
+		left: 16px;
+		font-size: 18px;
+	}
+	.bottomright{
+		position:absolute;
+		bottom: 8px;
+		right: 16px;
+		font-size: 18px; 
+	}
+	img {
+		width: 100%
+        height:auto;
+        opacity: 0.9
+    }
+	</style>	
+</head>
+<body>
+<h2>Image Text</h2>
+<P>We present an online OCR (Optical Character Recognition) service to extract text from image. Upload photo to our image to text converter, click on convert and get your text file instantly.
+</P>
+<div class="container">
+	<img src="color.jpg"width=1350" height="550">
+	<div class="topleft">Topleft</div>
+	<div class="topright">topright</div>
+    <div class="bottomleft">bottomleft</div>
+    <div class="bottomright">bottomright</div>
+    <div class="center">center</div>
+</div>
+</body>
+</html>.
