@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+	border-radius: 4px;
+	background-color: 
+	padding:20px;
+	margin: 0 auto;
+	width: 50%
+}
+	input[type=text], select {
+  width: 80%;
+  padding: 18px 30px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 2px pink;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  color: black;
+  background-color: pink;
+}
+
+input[type=submit] {
+  width: 60%;
+  background-color:solid pink;
+  color: solid gray;
+  padding: 14px 20px;
+  margin:  0 auto;
+  border: black;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+
+input[type=submit]:hover {
+  background-color:lightgray ;
+}
+ 
+div {
+  border-radius: 5px; 
+  background-color: purple;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h1>Personal Form</h1>
+
+<div>
+  <form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname" value="Farah Ali">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname" value="Rehmat Ali">
+  <label for="E-Mail">E-Mail</label>
+  <input type="text" id="E-Mail"name ="E-Mail" value="">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="pakistan">pakistan</option>
+      <option value="oman">oman</option>
+      <option value="Qatar">Qater</option>
+    </select>
+    <span style="font-size: 18px;">Date of Birth</span>
+    <select name="DoBmonth">
+    	<option>Month</option>
+    	<option value="january">january</option>
+    	<option value="february">fabruary</option>
+    	
+    </select>
+    <select name="DoBday">
+    	    <option>Day</option>
+    	    <option value="1">1</option>
+    	    <option value="2">2</option>
+    	
+    </select>
+    <select name="DoByear">
+    	    <option>Year</option>
+    	    <option value="1995">1995/option>
+    	     <option value="1996">1996</option>
+    	
+    </select>
+    <br>
+    <br>
+    <input type="radio" name="Male" value="Male">Male
+    <input type="radio" name="Female" value="Female">Female
+    <br>
+    <label for="subject">Subject</label>
+    <input type="text"id="Subject" name="Subject" value="">
+  
+    <input type="submit" value="Submit">
+  </form> 
+</div>
+
+</body>
+</html>
+
